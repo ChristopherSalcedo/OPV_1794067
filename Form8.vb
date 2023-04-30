@@ -6,4 +6,10 @@
         Me.Hide()
         Form2.Show()
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim celcius As Double = Val(TextBox1.Text)
+        Dim farengheit As Double = (celcius * 1.8) + 32
+        MessageBox.Show("La temperatura en fharenheit es " & farengheit)
+    End Sub
 End Class
