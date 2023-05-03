@@ -81,10 +81,7 @@ Public Class Form2
         Form17.Show()
     End Sub
 
-    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
-        Me.Hide()
-        Form18.Show()
-    End Sub
+
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
         Me.Hide()

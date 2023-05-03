@@ -30,10 +30,9 @@ Partial Class Form8
         ' 
         ' Button17
         ' 
-        Button17.Location = New Point(17, 20)
-        Button17.Margin = New Padding(4, 5, 4, 5)
+        Button17.Location = New Point(12, 12)
         Button17.Name = "Button17"
-        Button17.Size = New Size(49, 38)
+        Button17.Size = New Size(34, 23)
         Button17.TabIndex = 18
         Button17.Text = "<-"
         Button17.UseVisualStyleBackColor = True
@@ -42,17 +41,18 @@ Partial Class Form8
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(418, 158)
+        Label1.Location = New Point(293, 95)
+        Label1.Margin = New Padding(2, 0, 2, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(306, 36)
+        Label1.Size = New Size(215, 25)
         Label1.TabIndex = 19
-        Label1.Text = "Ingrese los grados celsius"
-        ' 
+        Label1.Text = "Ingrese los grados celsius"' 
         ' Button1
         ' 
-        Button1.Location = New Point(484, 307)
+        Button1.Location = New Point(339, 184)
+        Button1.Margin = New Padding(2, 2, 2, 2)
         Button1.Name = "Button1"
-        Button1.Size = New Size(148, 44)
+        Button1.Size = New Size(104, 26)
         Button1.TabIndex = 20
         Button1.Text = "Convertir"
         Button1.UseVisualStyleBackColor = True
@@ -60,21 +60,22 @@ Partial Class Form8
         ' TextBox1
         ' 
         TextBox1.Font = New Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox1.Location = New Point(466, 222)
+        TextBox1.Location = New Point(326, 133)
+        TextBox1.Margin = New Padding(2, 2, 2, 2)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(200, 42)
+        TextBox1.Size = New Size(141, 31)
         TextBox1.TabIndex = 21
         ' 
         ' Form8
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1143, 750)
+        BackColor = SystemColors.ActiveCaption
+        ClientSize = New Size(800, 450)
         Controls.Add(TextBox1)
         Controls.Add(Button1)
         Controls.Add(Label1)
         Controls.Add(Button17)
-        Margin = New Padding(4, 5, 4, 5)
         Name = "Form8"
         Text = "Form8"
         ResumeLayout(False)

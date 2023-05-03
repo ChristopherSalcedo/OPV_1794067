@@ -38,7 +38,6 @@ Partial Class Form2
         Button13 = New Button()
         Button14 = New Button()
         Button15 = New Button()
-        Button16 = New Button()
         Button17 = New Button()
         SuspendLayout()
         ' 
@@ -161,7 +160,7 @@ Partial Class Form2
         ' 
         ' Button13
         ' 
-        Button13.Location = New Point(591, 274)
+        Button13.Location = New Point(587, 250)
         Button13.Name = "Button13"
         Button13.Size = New Size(89, 34)
         Button13.TabIndex = 16
@@ -170,7 +169,7 @@ Partial Class Form2
         ' 
         ' Button14
         ' 
-        Button14.Location = New Point(591, 224)
+        Button14.Location = New Point(587, 200)
         Button14.Name = "Button14"
         Button14.Size = New Size(89, 34)
         Button14.TabIndex = 15
@@ -179,21 +178,12 @@ Partial Class Form2
         ' 
         ' Button15
         ' 
-        Button15.Location = New Point(591, 173)
+        Button15.Location = New Point(587, 149)
         Button15.Name = "Button15"
         Button15.Size = New Size(89, 34)
         Button15.TabIndex = 14
         Button15.Text = "P15"
         Button15.UseVisualStyleBackColor = True
-        ' 
-        ' Button16
-        ' 
-        Button16.Location = New Point(591, 122)
-        Button16.Name = "Button16"
-        Button16.Size = New Size(89, 34)
-        Button16.TabIndex = 13
-        Button16.Text = "P16"
-        Button16.UseVisualStyleBackColor = True
         ' 
         ' Button17
         ' 
@@ -208,12 +198,12 @@ Partial Class Form2
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ActiveCaption
         ClientSize = New Size(800, 450)
         Controls.Add(Button17)
         Controls.Add(Button13)
         Controls.Add(Button14)
         Controls.Add(Button15)
-        Controls.Add(Button16)
         Controls.Add(Button9)
         Controls.Add(Button10)
         Controls.Add(Button11)
@@ -249,6 +239,5 @@ Partial Class Form2
     Friend WithEvents Button13 As Button
     Friend WithEvents Button14 As Button
     Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
     Friend WithEvents Button17 As Button
 End Class

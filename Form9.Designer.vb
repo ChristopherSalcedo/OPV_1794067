@@ -30,10 +30,9 @@ Partial Class Form9
         ' 
         ' Button17
         ' 
-        Button17.Location = New Point(17, 20)
-        Button17.Margin = New Padding(4, 5, 4, 5)
+        Button17.Location = New Point(12, 12)
         Button17.Name = "Button17"
-        Button17.Size = New Size(49, 38)
+        Button17.Size = New Size(34, 23)
         Button17.TabIndex = 18
         Button17.Text = "<-"
         Button17.UseVisualStyleBackColor = True
@@ -41,40 +40,42 @@ Partial Class Form9
         ' TextBox2
         ' 
         TextBox2.Font = New Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox2.Location = New Point(471, 222)
+        TextBox2.Location = New Point(330, 133)
+        TextBox2.Margin = New Padding(2, 2, 2, 2)
         TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(235, 42)
+        TextBox2.Size = New Size(166, 31)
         TextBox2.TabIndex = 26
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(313, 159)
+        Label2.Location = New Point(219, 95)
+        Label2.Margin = New Padding(2, 0, 2, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(601, 36)
+        Label2.Size = New Size(421, 25)
         Label2.TabIndex = 25
-        Label2.Text = "Ingrese una lista de numeros separados por comas:"
-        ' 
+        Label2.Text = "Ingrese una lista de numeros separados por comas:"' 
         ' Button1
         ' 
-        Button1.Location = New Point(521, 300)
+        Button1.Location = New Point(365, 180)
+        Button1.Margin = New Padding(2, 2, 2, 2)
         Button1.Name = "Button1"
-        Button1.Size = New Size(137, 44)
+        Button1.Size = New Size(96, 26)
         Button1.TabIndex = 24
         Button1.Text = "Calcular"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' Form9
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1143, 750)
+        BackColor = SystemColors.ActiveCaption
+        ClientSize = New Size(800, 450)
         Controls.Add(TextBox2)
         Controls.Add(Label2)
         Controls.Add(Button1)
         Controls.Add(Button17)
-        Margin = New Padding(4, 5, 4, 5)
         Name = "Form9"
         Text = "Form9"
         ResumeLayout(False)

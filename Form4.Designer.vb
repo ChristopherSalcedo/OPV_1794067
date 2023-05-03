@@ -32,12 +32,13 @@ Partial Class Form4
         ' 
         ' Button1
         ' 
+        Button1.BackColor = SystemColors.ActiveBorder
         Button1.Location = New Point(548, 245)
         Button1.Name = "Button1"
         Button1.Size = New Size(75, 23)
         Button1.TabIndex = 0
         Button1.Text = "Verificar"
-        Button1.UseVisualStyleBackColor = True
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' Button17
         ' 

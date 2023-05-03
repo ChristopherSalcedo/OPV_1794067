@@ -23,6 +23,9 @@ Partial Class Form15
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Button17 = New Button()
+        Button1 = New Button()
+        Label1 = New Label()
+        TextBox1 = New TextBox()
         SuspendLayout()
         ' 
         ' Button17
@@ -34,16 +37,48 @@ Partial Class Form15
         Button17.Text = "<-"
         Button17.UseVisualStyleBackColor = True
         ' 
+        ' Button1
+        ' 
+        Button1.Location = New Point(356, 219)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(75, 23)
+        Button1.TabIndex = 19
+        Button1.Text = "Acomodar"
+        Button1.UseVisualStyleBackColor = True
+        ' 
+        ' Label1
+        ' 
+        Label1.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Location = New Point(56, 267)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(682, 143)
+        Label1.TabIndex = 20
+        ' 
+        ' TextBox1
+        ' 
+        TextBox1.Location = New Point(343, 171)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(100, 23)
+        TextBox1.TabIndex = 21
+        ' 
         ' Form15
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ActiveCaption
         ClientSize = New Size(800, 450)
+        Controls.Add(TextBox1)
+        Controls.Add(Label1)
+        Controls.Add(Button1)
         Controls.Add(Button17)
         Name = "Form15"
         Text = "Form15"
         ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents Button17 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents TextBox1 As TextBox
 End Class

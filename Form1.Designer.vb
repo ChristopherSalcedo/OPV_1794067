@@ -33,31 +33,32 @@ Partial Class Form1
         ' 
         ' TextBox1
         ' 
-        TextBox1.Location = New Point(334, 243)
+        TextBox1.Location = New Point(335, 260)
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(152, 23)
         TextBox1.TabIndex = 0
         ' 
         ' TextBox2
         ' 
-        TextBox2.Location = New Point(334, 298)
+        TextBox2.Location = New Point(335, 315)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(152, 23)
         TextBox2.TabIndex = 1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(369, 346)
+        Button1.BackColor = SystemColors.ActiveBorder
+        Button1.Location = New Point(370, 363)
         Button1.Name = "Button1"
         Button1.Size = New Size(75, 23)
         Button1.TabIndex = 2
         Button1.Text = "Entrar"
-        Button1.UseVisualStyleBackColor = True
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(334, 225)
+        Label1.Location = New Point(335, 242)
         Label1.Name = "Label1"
         Label1.Size = New Size(47, 15)
         Label1.TabIndex = 3
@@ -65,7 +66,7 @@ Partial Class Form1
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(334, 280)
+        Label2.Location = New Point(335, 297)
         Label2.Name = "Label2"
         Label2.Size = New Size(67, 15)
         Label2.TabIndex = 4
@@ -75,7 +76,7 @@ Partial Class Form1
         Label3.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
         Label3.Location = New Point(117, 9)
         Label3.Name = "Label3"
-        Label3.Size = New Size(599, 193)
+        Label3.Size = New Size(599, 216)
         Label3.TabIndex = 5
         Label3.Text = resources.GetString("Label3.Text")
         Label3.TextAlign = ContentAlignment.MiddleCenter
@@ -84,6 +85,7 @@ Partial Class Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ActiveCaption
         ClientSize = New Size(800, 450)
         Controls.Add(Label3)
         Controls.Add(Label2)

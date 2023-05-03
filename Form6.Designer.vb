@@ -48,6 +48,7 @@ Partial Class Form6
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ActiveCaption
         ClientSize = New Size(800, 450)
         Controls.Add(Button1)
         Controls.Add(Button17)
